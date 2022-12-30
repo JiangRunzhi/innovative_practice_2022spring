@@ -1,0 +1,9 @@
+{
+  "pgsql": {
+    "database" : "sentiment_analysis",
+    "user" : "miner",
+    "password" : "jkl5876596",
+    "host" : "120.79.45.67",
+    "port" : "5432"
+  }
+}

@@ -22,6 +22,8 @@ if __name__ == '__main__':
     str_text7 = '段安琪喜欢李浩博！！！！！！'
 
     str_text8 = '俄罗斯向乌克兰宣战！！！'
+
+    str_text9 = '我不喜欢你'
     c = Cemotion()
 
     print('"', str_text1, '"\n', '预测值:{:6f}'.format(c.predict(str_text1)), '\n')
@@ -40,5 +42,6 @@ if __name__ == '__main__':
 
     print('"', str_text8, '"\n', '预测值:{:6f}'.format(c.predict(str_text8)), '\n')
 
-    print('''''',"预测值越高表示情感倾向置信度越偏积极噢！情感倾向置信度为区间[0,1]")
+    print('"', str_text9, '"\n', '预测值:{:6f}'.format(c.predict(str_text9)), '\n')
 
+    print('''''',"预测值越高表示情感倾向置信度越偏积极噢！情感倾向置信度为区间[0,1]")
